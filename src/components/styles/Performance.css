@@ -1,0 +1,125 @@
+.performance-wrapper {
+  background-color: #fff;
+  border: none;
+}
+.easy-drive-header,
+.easy-drive-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 0px 10px;
+}
+.easy-drive-header {
+  width: 70%;
+}
+.easy-drive-content {
+  width: 80%;
+}
+.easy-drive-car {
+  width: 100%;
+}
+.performance {
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.performance-wrapper img {
+  width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.easy-drive-car img {
+  position: relative;
+  z-index: 3;
+}
+.performance img {
+  position: relative;
+  z-index: 2;
+}
+.performance-text-header {
+  z-index: 3 !important;
+  position: absolute !important;
+  top: 30%;
+  left: 10px;
+  width: 70% !important;
+}
+.performance-text-content {
+  z-index: 3 !important;
+  position: absolute !important;
+  top: 40%;
+  left: 10px;
+  width: 70% !important;
+}
+.easy-charge-img {
+  width: 50%;
+}
+.easy-charge-img img {
+  width: 50%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
+.easy-charge-content {
+  padding: 30% 0;
+  background-color: #3365b9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100vw;
+  background-image: url("../../assets/texture.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-blend-mode: overlay;
+}
+.easy-charge-content > img {
+  position: static !important;
+  width: 60%;
+}
+.maintain {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px 0 0 10px;
+  justify-content: center;
+  background-color: #3365b9;
+  background: linear-gradient(180deg, rgba(51,101,185,1) 0%, rgba(60,124,196,1) 57%, rgba(60,161,196,1) 100%);
+  gap: 20px;
+  width: 100%;
+}
+.maintain img {
+  width: 80%;
+}
+.maintain-car {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.maintain-car img{
+  position: relative;
+  z-index: 3;
+  background: transparent;
+}
+.i-smart{
+  background-color: #fff;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+.i-smart > img {
+  margin-top: 30px;
+}
+.back-to-top{
+  width: 40% !important;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
